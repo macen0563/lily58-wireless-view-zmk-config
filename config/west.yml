@@ -1,16 +1,7 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: ivyp
-      url-base: https://github.com/ivyp
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
-    - name: zmk-bongocat-widget
-      remote: ivyp
-      revision: master
   self:
     path: config
